@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestList", "GuestList.csproj", "{0E651A3B-13FE-4B46-9102-C4D6E8F7D4CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E651A3B-13FE-4B46-9102-C4D6E8F7D4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E651A3B-13FE-4B46-9102-C4D6E8F7D4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E651A3B-13FE-4B46-9102-C4D6E8F7D4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E651A3B-13FE-4B46-9102-C4D6E8F7D4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD199EB4-C1F8-4BFB-A615-A667512F8EB3}
+	EndGlobalSection
+EndGlobal

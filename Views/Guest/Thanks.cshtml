@@ -1,0 +1,18 @@
+﻿@model GuestList.Models.Guest
+
+@{
+    ViewData["Title"] = "Obrigado";
+}
+
+@if (Model.Status == true)
+{
+    <p>Obrigado por confirmar sua presença, te aguardo ansiosamente!</p>
+}
+else
+{
+    <p>Ainda Bem!</p>
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-dark">Voltar</a>
+
+

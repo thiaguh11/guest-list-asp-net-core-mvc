@@ -1,0 +1,42 @@
+﻿@model IEnumerable<GuestList.Models.Guest>
+
+@{
+    ViewData["Title"] = "Lista";
+}
+
+<h3>Lista</h3>
+
+<hr />
+
+<p>Lista apenas com os convidados que irão está presentes.</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Telefone
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
